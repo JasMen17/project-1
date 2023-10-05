@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVQUwaEQbjB_mQ.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVQUwaEQbjB_mQ.woff) format('woff');
+}
+
+/*the begining of index*/
+body{
+    margin: 0%;
+}
+
+header{
+    background-color: black;
+    padding-bottom: 2%;
+    text-align: center;
+    color: white;
+    padding-right: 3%;
+    }
+
+/*links start*/    
+    a{
+        font-family: 'Oswald';
+        font-size: 1em;
+        background-color: rgb(241, 90, 41);
+        border-radius: 2%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    a:hover{
+        color: rgb(241, 90, 41);
+        background-color: green;
+    }
+ 
+    a:link{
+        color: white;
+    }
+    a:visited{
+        color: white;
+    }
+/*links end*/
+
+/*simple elements start*/
+h3{
+    font-family: 'Open Sans';
+    font-size: 1.3em;
+    background-color: rgb(245, 138, 120);
+    color: white;
+    padding: 2%;
+}
+
+p{
+    font-family: 'Open Sans';
+}
+
+h2{
+    font-family: 'Oswald';
+    font-size: 2em;
+    font-style: bold; 
+}
+
+ol{
+    list-style: none;
+}
+/*simple elements end*/
+
+/*quotes*/
+.quote{
+    font-family: 'Open Sans';
+    padding-left: 2%;
+    padding-right: 2%;
+}
+/*quotes end*/
+
+
+ /*main text*/
+    h1{
+        font-family: 'Oswald';
+        font-size: 5em;
+        font-style: bold;
+        color: white;
+        text-shadow: .05em .05em black;
+        white-space: pre;
+        margin-inline: 10% 10%;
+    }
+
+.main{
+    background-image: url(Images/Building\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+/*main text*/
+
+
+/*3 bodies*/
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#container p{
+    border: 4px solid;
+    color: white;
+    background-color: rgb(245, 138, 120);
+width: 300px;
+box-shadow: 6px 6px rgb(241, 90, 41);
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+margin: 20px;
+}
+
+#container h2{
+    white-space: pre;
+    padding-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+margin: 20px;
+}
+/*3 bodies*/
+
+/*footer start*/
+footer{
+    background-color: rgb(241, 90, 41);
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#align ul{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    font-family: 'Oswald';
+    font-size: 1em;
+    color: white; 
+}
+/*footer end*/
+
+/*start of about*/
+
+.orange{
+    background-color: rgb(241, 90, 41);
+    padding-top: .5%;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.orange h1{
+text-align: center;
+background-color: rgb(245, 138, 120);
+}
+
+.orange hr{
+border: solid;
+border-color: rgb(245, 138, 120);
+}
+
+.orange p{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+#container img{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 6px 6px rgb(241, 90, 41);
+}
+/*end of about*/
+
+/*start of join*/
+
+fieldset{
+    font-family: 'Oswald';
+    font-size: 2em;
+    text-align: center;
+}
+
+lies{
+    text-align: center;
+}
+/*end of join*/
+
+/*start of news*/
+.news p{
+    margin: 5%;
+}
+.news img{
+    margin: 5%;
+    float: right;
+    background-color: rgb(245, 138, 120);
+box-shadow: 6px 6px rgb(241, 90, 41);
+}
+
+.news h2{
+    margin: 5%;
+}
+
+.bottom img{
+    margin: 5%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(245, 138, 120);
+box-shadow: 6px 6px rgb(241, 90, 41);
+}
+/*end of news*/
+
+
+/*start of right*/
+.rights{
+    text-align: left;
+    background-color: rgb(245, 138, 120);
+box-shadow: 6px 6px rgb(241, 90, 41);
+}
+
+.rights img{
+    float: left;
+    margin: 5%;
+    background-color: rgb(245, 138, 120);
+box-shadow: 6px 6px rgb(241, 90, 41);
+}
+.wrongs{
+    text-align: right;
+    margin: 5%;
+    background-color: rgb(245, 138, 120);
+box-shadow: 6px 6px rgb(241, 90, 41);
+}
+.wrongs img{
+    float: right;
+    margin: 5%;
+    background-color: rgb(245, 138, 120);
+box-shadow: 6px 6px rgb(241, 90, 41);
+}
+
+.lefts{
+    text-align: left;
+    background-color: rgb(245, 138, 120);
+box-shadow: 6px 6px rgb(241, 90, 41);
+}
+
+.lefts img{
+    float: left;
+    margin: 5%;
+    background-color: rgb(245, 138, 120);
+box-shadow: 6px 6px rgb(241, 90, 41);
+}
+
+.new img{
+    float: right;
+    margin: 5%;
+    background-color: rgb(245, 138, 120);
+box-shadow: 6px 6px rgb(241, 90, 41);
+}
+.new{
+    text-align: right;
+    margin: 5%;
+    background-color: rgb(245, 138, 120);
+box-shadow: 6px 6px rgb(241, 90, 41);
+}
+
+.act{
+    margin: 5%;
+}
+/*end of rights*.
